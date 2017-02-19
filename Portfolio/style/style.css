@@ -1,0 +1,339 @@
+html, body {  
+width: 100%;  
+height: 100%;  
+margin: 0;  
+min-height: 100%;
+        
+overflow: hidden;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+.content
+{
+    position: relative;
+    
+    overflow: hidden;
+}
+#background {
+    background:url(../images/background1%20copy.jpg) repeat-y -50px -25px;
+    position:absolute;
+    top:0;
+    bottom: 0;
+    width:100%;
+    z-index:0;
+    height:100%;
+    background-size: 120% 120%;
+    background
+    
+}
+
+#content
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.header
+{
+    
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navBar{
+    list-style-type: none;
+    margin: 0;
+    padding-right: 2em;;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+}
+.navBar li 
+{
+    padding: auto;
+    
+    margin-right: .5em;
+    font-size: 2em;
+    float: right;
+     
+}
+.navBar li a {
+    display: block;
+    color: lightyellow;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+   
+}
+.navBar li a:hover {
+    border-left: 1px solid #EE1289	;
+    border-right: 1px solid #EE1289	;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+        transform: scale(1.5);
+    color: #EE1289;    
+}
+.name{
+    text-transform: uppercase;
+    position: absolute;
+    color: lightskyblue;
+    margin-left: 25px;
+    padding: .2em;
+    text-decoration: none;
+    border-left: none;
+    float: left;
+    overflow: 0;
+    font-size: 3em;
+    text-shadow: 1px 1px maroon;   
+}
+
+.name:hover {
+    color: firebrick;
+    border-bottom: 1px solid firebrick;
+    ;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+  
+  padding: 20px;
+}
+footer {
+    position: absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+    background-color: black;  
+   
+}
+
+footer ul
+{
+    margin: auto;
+    padding: auto;
+}
+
+footer li
+{
+    position: absolute;
+    float:right;
+    padding-top: .3em;
+}
+
+footer li a
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    color:lightyellow;
+    text-decoration: none;
+    font-size: 2em;
+    overflow: hidden;
+}
+footer li a:hover
+{
+    border-left: 1px solid #ED3C6D;
+    border-right: 1px solid #ED3C6D;
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+        transform: scale(1.3);
+    color: #ED5C7A;
+}
+
+#footer
+{
+    margin-right: 2em;
+    color: white;
+    text-align: right;
+}
+.mainName
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#main{
+    
+    top: 5em;
+    overflow-y: auto;
+    flex: auto;
+    height: 100%;
+    width: 100%;
+    background:rgba(0, 0, 0, 0.8);
+    position: absolute;
+}
+
+#portfolio
+{
+    width: 100%;
+    height: 100%;
+}
+#portfolio h1
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#name
+{
+    color: lightcyan;
+    text-shadow: 8px 8px 8px black;
+    text-align:center;
+    font-size:7em;
+    font-weight:700;
+    animation:blur 5s ease-out 1;
+    text-shadow:10x 100px 100px #fff,
+}
+#namePort
+{
+    color: lightcyan;
+    text-shadow: 8px 8px 8px black;
+    text-align:center;
+    font-size:7em;
+    font-weight:700;
+    animation:blur 5s ease-out 1;
+    text-shadow:10x 100px 100px #fff,
+}
+
+#arrow
+{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 50%;
+    top: 66%;
+    background: url(../images/Arrow.png) no-repeat 0px 0px;
+    transform: translate(-50%);
+    
+}
+#arrow:hover
+{
+    background: url(../images/downArrow.png) no-repeat 0px 0px;
+}
+
+#Port1
+{
+    float right;
+    width: 100%;
+    height: 100%;
+    background: black;
+    background-size: 100%, 100%;  
+    opacity: 0.6;
+}
+
+#Port2
+{
+    float: right;
+    width: 100%;
+    height: 100%;
+    background-color: cornflowerblue;
+    background-size: 100%, 100%;
+     opacity: 0.6;
+}
+
+#Port3
+{
+    float: right;
+    width: 100%;
+    height: 100%;
+    background-color: crimson;
+    background-size: 100%, 100%;
+    opacity: 0.6;
+}
+
+
+#Port4
+{
+    float: right;
+    width: 100%;
+    height: 100%;
+    background-color:dimgray;
+    background-size: 100%, 100%;
+     opacity: 0.6;
+}
+
+#Port5
+{
+    float: right;
+    width: 100%;
+    height: 100%;
+    background-color:beige;
+    background-size: 100%, 100%;
+     opacity: 0.6;
+}
+#Port6
+{
+    float: right;
+    width: 100%;
+    height: 100%;
+    background-color:darkslateblue;
+    background-size: 100%, 100%;
+     opacity: 0.6;
+}
+
+
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 10px black,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+    }
+}
+
+#portfolioButton a
+{
+    position: absolute;
+    text-align: center;
+    transform: translateY(-50%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 50%;
+    left: 50%;
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    border: 1px solid lightskyblue;
+    border-radius: 25px;
+    box-shadow: 5px 5px black;
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 3px black;
+}
+
+#portfolioButton a:hover 
+{
+    color: lightyellow;
+    background: black; 
+    animation:blur 2s ease-out 1;
+}
