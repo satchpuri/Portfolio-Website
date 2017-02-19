@@ -1,22 +1,18 @@
-html, body {  
+html, body 
+{  
 width: 100%;  
 height: 100%;  
 margin: 0;  
 min-height: 100%;
-        
 overflow: hidden;
+    
 }
 body
 {
     display: flex;
     flex-direction: column;
 }
-.content
-{
-    position: relative;
-    
-    overflow: hidden;
-}
+
 #background {
     background:url(../images/background1%20copy.jpg) repeat-y -50px -25px;
     position:absolute;
@@ -26,7 +22,6 @@ body
     z-index:0;
     height:100%;
     background-size: 120% 120%;
-    background
     
 }
 
@@ -56,8 +51,6 @@ body
 }
 .navBar li 
 {
-    padding: auto;
-    
     margin-right: .5em;
     font-size: 2em;
     float: right;
@@ -89,7 +82,7 @@ body
     text-decoration: none;
     border-left: none;
     float: left;
-    overflow: 0;
+    overflow: hidden;
     font-size: 3em;
     text-shadow: 1px 1px maroon;   
 }
@@ -120,7 +113,7 @@ footer {
 footer ul
 {
     margin: auto;
-    padding: auto;
+
 }
 
 footer li
@@ -136,7 +129,7 @@ footer li a
     padding-right: 10px;
     display: block;
     text-align: center;
-    padding: auto;
+   
     margin: auto;
     color:lightyellow;
     text-decoration: none;
@@ -168,14 +161,13 @@ footer li a:hover
 }
 
 #main{
-    
     top: 5em;
-    overflow-y: auto;
-    flex: auto;
+    overflow-y:scroll;
+    flex: none;
     height: 100%;
     width: 100%;
-    background:rgba(0, 0, 0, 0.8);
-    position: absolute;
+ 
+    position: relative;
 }
 
 #portfolio
@@ -199,7 +191,7 @@ footer li a:hover
     font-size:7em;
     font-weight:700;
     animation:blur 5s ease-out 1;
-    text-shadow:10x 100px 100px #fff,
+    text-shadow: 10px 10px 10px #000;
 }
 #namePort
 {
@@ -209,16 +201,16 @@ footer li a:hover
     font-size:7em;
     font-weight:700;
     animation:blur 5s ease-out 1;
-    text-shadow:10x 100px 100px #fff,
+    text-shadow: 10px 10px 10px #000;
 }
 
 #arrow
 {
-    position: absolute;
+    position: relative;
     width: 200px;
     height: 200px;
     left: 50%;
-    top: 66%;
+    top: 2em;
     background: url(../images/Arrow.png) no-repeat 0px 0px;
     transform: translate(-50%);
     
@@ -230,12 +222,12 @@ footer li a:hover
 
 #Port1
 {
-    float right;
+    float: right;
     width: 100%;
     height: 100%;
-    background: black;
+   
     background-size: 100%, 100%;  
-    opacity: 0.6;
+    
 }
 
 #Port2
@@ -336,4 +328,42 @@ footer li a:hover
     color: lightyellow;
     background: black; 
     animation:blur 2s ease-out 1;
+}
+
+
+
+@media only screen and (min-width:150px) and (max-width: 640px)
+{
+   
+    body 
+    {
+        width: 100%;
+    }
+
+    .name
+    {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        left: 50%;
+        transform: translate(-55%, 0); 
+    }
+    .navBar li 
+    {
+        width: 100%;
+        float: none;    
+    }
+
+    #main{
+        
+    position: relative;
+    top:22em;
+    overflow-y: auto;
+    flex: none;
+    
+    width: 100%;
+    background:transparent;
+   
+}
+
 }
