@@ -42,9 +42,22 @@ body
     width: 100%;
     height: 100%;
 }
-.header
+#header, #footer
 {
-    
+		position:fixed;	
+		display:block;
+		width: 100%;	
+		z-index:9;		
+}
+#header{
+    top: 0px;
+}
+#footer
+{
+    bottom: 0px;
+}
+.header
+{  
     position: absolute;
     top:0;
     left: 0;
@@ -64,8 +77,7 @@ body
 {
     margin-right: .5em;
     font-size: 2em;
-    float: right;
-     
+    float: right;    
 }
 .navBar li a {
     display: block;
@@ -73,8 +85,7 @@ body
     text-align: center;
     padding: 10px;
     margin: 10px;
-    text-decoration: none;
-   
+    text-decoration: none; 
 }
 .navBar li a:hover {
     border-left: 1px solid #EE1289	;
@@ -112,7 +123,8 @@ body
   
   padding: 20px;
 }
-footer {
+footer 
+{
     position: absolute;
     bottom:0;
     left: 0;
@@ -120,18 +132,11 @@ footer {
     background-color: black;  
    
 }
-#test
-{
-    width: 1920px;
-    height: 1080px;
-    
-}
 footer ul
 {
     margin: auto;
 
 }
-
 footer li
 {
     position: absolute;
@@ -162,21 +167,22 @@ footer li a:hover
     color: #ED5C7A;
 }
 
-#footer
+#footers
 {
     margin-right: 2em;
     color: white;
     text-align: right;
 }
-.mainName
+#mainName
 {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-#main{
+#main
+{
     top: 5em;
     overflow-y:scroll;
     flex: none;
@@ -236,54 +242,59 @@ footer li a:hover
     background: url(../images/downArrow.png) no-repeat 0px 0px;
 }
 
+#Port1, #Port2, #Port3, #Port4, #Port6
+{
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 #Port1
 {
-    float: right;
-    width: 100%;
-    height: 100%;
     
-    background-size: 100%, 100%;  
+    
+    
+   
     
 }
 
 #Port2
 {
-    float: right;
+
     width: 100%;
     height: 100%;
-    background: url(../images/SilverEcho.png) no-repeat 0px 0px;
-    background-size: 100%, 100%;
+    background-image: url(../images/SilverEcho.png);
+   
     opacity: 0.85;
 }
 
 #Port3
 {
-    float: right;
+    
     width: 100%;
     height: 100%;
-    background: url(../images/SlimeSpree.png) no-repeat 0px 0px;
-    background-size: 100%, 100%;
+   background-image: url(../images/SlimeSpree.png);
+   
     opacity: 0.9;
 }   
 
 
 #Port4
 {
-    float: right;
+
     width: 100%;
     height: 100%;
-    background: url(../images/givejoy.png) no-repeat 0px 0px;
-    background-size: 100%, 100%;
+    background: url(../images/givejoy.png);
+    
     opacity: 0.9;
 }
 
 #Port5
-{S
-    float: right;
+{
+   
     width: 100%;
     height: 100%;
-    background: url(../images/BlackFeather.png) no-repeat 0px 0px;
-    background-size: 100%, 100%;
+    background-image: url(../images/BlackFeather.png);
+    
     opacity: 0.95;
 }
 #Port6
@@ -292,7 +303,7 @@ footer li a:hover
     width: 100%;
     height: 100%;
     background-color:darkslateblue;
-    background-size: 100%, 100%;
+    
     opacity: 0.6;
 }
 
