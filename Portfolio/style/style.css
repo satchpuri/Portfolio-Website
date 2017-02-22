@@ -14,6 +14,18 @@ body
 }
 
 #background {
+    background:url(../images/background1%20copy.jpg) repeat-y -50px -55px;
+    position:absolute;
+    top:0;
+    bottom: 0;
+    width:100%;
+    z-index:0;
+    height:100%;
+    background-size: 135% 135%;   
+}
+
+#sbackground
+{
     background:url(../images/background1%20copy.jpg) repeat-y -50px -25px;
     position:absolute;
     top:0;
@@ -21,8 +33,7 @@ body
     width:100%;
     z-index:0;
     height:100%;
-    background-size: 120% 120%;
-    
+    background-size: 120% 120%;   
 }
 
 #content
@@ -109,7 +120,12 @@ footer {
     background-color: black;  
    
 }
-
+#test
+{
+    width: 1920px;
+    height: 1080px;
+    
+}
 footer ul
 {
     margin: auto;
@@ -225,7 +241,7 @@ footer li a:hover
     float: right;
     width: 100%;
     height: 100%;
-   
+    
     background-size: 100%, 100%;  
     
 }
@@ -235,9 +251,9 @@ footer li a:hover
     float: right;
     width: 100%;
     height: 100%;
-    background-color: cornflowerblue;
+    background: url(../images/SilverEcho.png) no-repeat 0px 0px;
     background-size: 100%, 100%;
-     opacity: 0.6;
+    opacity: 0.85;
 }
 
 #Port3
@@ -245,10 +261,10 @@ footer li a:hover
     float: right;
     width: 100%;
     height: 100%;
-    background-color: crimson;
+    background: url(../images/SlimeSpree.png) no-repeat 0px 0px;
     background-size: 100%, 100%;
-    opacity: 0.6;
-}
+    opacity: 0.9;
+}   
 
 
 #Port4
@@ -256,19 +272,19 @@ footer li a:hover
     float: right;
     width: 100%;
     height: 100%;
-    background-color:dimgray;
+    background: url(../images/givejoy.png) no-repeat 0px 0px;
     background-size: 100%, 100%;
-     opacity: 0.6;
+    opacity: 0.9;
 }
 
 #Port5
-{
+{S
     float: right;
     width: 100%;
     height: 100%;
-    background-color:beige;
+    background: url(../images/BlackFeather.png) no-repeat 0px 0px;
     background-size: 100%, 100%;
-     opacity: 0.6;
+    opacity: 0.95;
 }
 #Port6
 {
@@ -277,7 +293,7 @@ footer li a:hover
     height: 100%;
     background-color:darkslateblue;
     background-size: 100%, 100%;
-     opacity: 0.6;
+    opacity: 0.6;
 }
 
 

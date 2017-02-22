@@ -4,14 +4,22 @@
     <title> Satch Puri </title>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
         <link rel="stylesheet" type="text/css" href="style/style.css"/>
+        <link rel="stylesheet" type="text/css" href="style/jquery.fullPage.css"/>
         <script src="js/movingbackground.js" type="text/javascript"> </script>
-     
+        <script src="js/jquery.fullPage.js" type="text/javascript"></script>
+        
+        <script>
+        $(document).ready(function() 
+            {
+                $('#fullpage').fullpage();
+            });
+        </script>
     </head>
     <body>
-        <div id="background">  </div>
+        <div id="sbackground"> </div>
             <nav class="header">
                 <header>
                     <!-- add logo instead of name--> 
@@ -26,39 +34,51 @@
                         </ul>
                 </header>
             </nav>
-          
+          <div class="fullpage">
             <div id="main">
+                    <div id="background">  </div>
                 <div class="mainName">
                         <h1 id="name">Sachit Puri</h1>
-                        <h3 id="portfolioButton"> <a href="Portfolio.html"> Portfolio </a></h3>
-                         <div id="arrow">
+                        <h3 id="portfolioButton"> <a href="index.html#Port2"> Portfolio </a></h3>
+                    <div id="arrow"> 
                         </div>
                     </div>   
-                
+               
+                <div class="section">
                 <div id="Port1">   
+                    <div id="test">
+                     <h3 id="portfolioButton"> <a href="index.html#Port2"> Portfolio </a></h3>
+                        </div>
                 </div>
-                    
-                <div id="Port2">                   
-                    
                 </div>
-                  
-                <div id="Port3">
-                        
+                <div class="section">
+                <div id="Port2">
+ <div id="test">
+                     <h3 id="portfolioButton"> <a href="index.html#Port2"> Portfolio </a></h3>
+                        </div>
                 </div>
-                    
-                <div id="Port4">
-                        
+                    </div>
+                <div class="section">
+                <div id="Port3">  
+                     <div id="test">
+                     <h3 id="portfolioButton"> <a href="index.html#Port2"> Portfolio </a></h3>
+                        </div>
                 </div>
-                    
-                <div id="Port5">
-                        
+                    </div>
+                <div class="section"> 
+                <div id="Port4">      
                 </div>
-                    
-                <div id="Port6">
-                            
+                    </div>
+                <div class="section">
+                <div id="Port5">       
                 </div>
-                
+                    </div>
+                <div class="section">
+                <div id="Port6">          
+                </div>
+                </div>
             </div>
+        </div>
                 
          <nav class="footer">   
                 <footer>
