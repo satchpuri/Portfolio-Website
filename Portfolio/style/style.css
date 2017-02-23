@@ -4,13 +4,14 @@ width: 100%;
 height: 100%;  
 margin: 0;  
 min-height: 100%;
-overflow: hidden;
+overflow: scroll;
     
 }
 body
 {
     display: flex;
     flex-direction: column;
+   
 }
 
 #background {
@@ -287,6 +288,28 @@ footer li a:hover
     
     opacity: 0.9;
 }
+
+#Port4-1
+{
+
+    width: 100%;
+    height: 100%;
+    background: url(../images/CollegeCookOff.png);
+    
+    opacity: 0.9;
+}
+
+#Port4-2
+{
+
+    width: 100%;
+    height: 100%;
+    background: url(../images/floorIsLava.png);
+    
+    opacity: 0.9;
+}
+
+
 
 #Port5
 {
