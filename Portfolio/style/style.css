@@ -11,10 +11,10 @@ body
 {
     display: flex;
     flex-direction: column;
-   
 }
 
-#background {
+#background 
+{
     background:url(../images/background1%20copy.jpg) repeat-y -50px -55px;
     position:absolute;
     top:0;
@@ -43,14 +43,16 @@ body
     width: 100%;
     height: 100%;
 }
+
 #header, #footer
 {
-		position:fixed;	
-		display:block;
-		width: 100%;	
-		z-index:9;		
+    position:fixed;	
+    display:block;
+    width: 100%;	
+    z-index:9;		
 }
-#header{
+#header
+{
     top: 0px;
 }
 #footer
@@ -66,7 +68,8 @@ body
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-.navBar{
+.navBar
+{
     list-style-type: none;
     margin: 0;
     padding-right: 2em;;
@@ -80,7 +83,8 @@ body
     font-size: 2em;
     float: right;    
 }
-.navBar li a {
+.navBar li a 
+{
     display: block;
     color: lightyellow;
     text-align: center;
@@ -88,7 +92,8 @@ body
     margin: 10px;
     text-decoration: none; 
 }
-.navBar li a:hover {
+.navBar li a:hover 
+{
     border-left: 1px solid #EE1289	;
     border-right: 1px solid #EE1289	;
     -webkit-transform: scale(1.5);
@@ -96,7 +101,8 @@ body
         transform: scale(1.5);
     color: #EE1289;    
 }
-.name{
+.name
+{
     text-transform: uppercase;
     position: absolute;
     color: lightskyblue;
@@ -110,12 +116,13 @@ body
     text-shadow: 1px 1px maroon;   
 }
 
-.name:hover {
+.name:hover 
+{
     color: firebrick;
     border-bottom: 1px solid firebrick;
-    ;
 }
-.footer{
+.footer
+{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -131,7 +138,6 @@ footer
     left: 0;
     right: 0;
     background-color: black;  
-   
 }
 footer ul
 {
@@ -151,7 +157,6 @@ footer li a
     padding-right: 10px;
     display: block;
     text-align: center;
-   
     margin: auto;
     color:lightyellow;
     text-decoration: none;
@@ -181,7 +186,6 @@ footer li a:hover
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 #main
 {
     top: 5em;
@@ -192,30 +196,7 @@ footer li a:hover
     position: relative;
 }
 
-#portfolio
-{
-    width: 100%;
-    height: 100%;
-}
-#portfolio h1
-{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
 #name
-{
-    color: lightcyan;
-    text-shadow: 8px 8px 8px black;
-    text-align:center;
-    font-size:7em;
-    font-weight:700;
-    animation:blur 5s ease-out 1;
-    text-shadow: 10px 10px 10px #000;
-}
-#namePort
 {
     color: lightcyan;
     text-shadow: 8px 8px 8px black;
@@ -239,88 +220,52 @@ footer li a:hover
 }
 #arrow:hover
 {
-    background: url(../images/downArrow.png) no-repeat 0px 0px;
+    
 }
 
-#Port1, #Port2, #Port3, #Port4, #Port6
+#Port1, #Port2, #Port3, #Port4,#Port4-1,#Port4-2, #Port5, #Port6
 {
-    background-size: cover;
+    background-size: 100% 100%;
     background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
 }
 
-#Port1
-{
-    
-    
-    
-   
-    
-}
+
 
 #Port2
 {
-
-    width: 100%;
-    height: 100%;
-    background-image: url(../images/SilverEcho.png);
-   
-    opacity: 0.85;
+    background-image: url(../images/SilverEcho.png); 
 }
 
 #Port3
 {
-    
-    width: 100%;
-    height: 100%;
-   background-image: url(../images/SlimeSpree.png);
-   
-    opacity: 0.9;
-}   
-
+    background-image: url(../images/SlimeSpree.png);
+}
 
 #Port4
 {
-    width: 100%;
-    height: 100%;
-    background: url(../images/givejoy.png);
-    
-    opacity: 0.9;
+    background-image: url(../images/givejoy.png);
 }
 
 #Port4-1
 {
-    width: 100%;
-    height: 100%;
-    background: url(../images/CollegeCookOff.png);
-    
-    opacity: 0.9;
+    background-image: url(../images/CollegeCookOff.png);
 }
 
 #Port4-2
 {
-    width: 100%;
-    height: 100%;
-    background: url(../images/floorIsLava.png)  ;
-    
-    opacity: 0.9;
+    background-image: url(../images/floorIsLava.png)  ;
 }
 
 #Port5
 {
-    width: 100%;
-    height: 100%;
     background-image: url(../images/BlackFeather.png);
-    
-    opacity: 0.95;
 }
 #Port6
 {
-    float: right;
-    width: 100%;
-    height: 100%;
-    background: url(../images/Healthnet.png);
-    
-    opacity: 0.95;
+    background-image: url(../images/Healthnet.png);
 }
 
 
@@ -395,6 +340,7 @@ footer li a:hover
     text-shadow: 3px 3px black;
     z-index: 10;
 }
+
 #readMore a:hover
 {
     color: lightyellow;
@@ -402,10 +348,8 @@ footer li a:hover
     animation:blur 2s ease-out 1;
 }
 
-
 @media only screen and (min-width:150px) and (max-width: 640px)
 {
-   
     body 
     {
         width: 100%;
