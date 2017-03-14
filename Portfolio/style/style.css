@@ -185,11 +185,10 @@ footer li a:hover
 #main
 {
     top: 5em;
-    overflow-y:scroll;
+    overflow:scroll;
     flex: none;
     height: 100%;
     width: 100%;
- 
     position: relative;
 }
 
@@ -281,7 +280,6 @@ footer li a:hover
 
 #Port4
 {
-
     width: 100%;
     height: 100%;
     background: url(../images/givejoy.png);
@@ -291,7 +289,6 @@ footer li a:hover
 
 #Port4-1
 {
-
     width: 100%;
     height: 100%;
     background: url(../images/CollegeCookOff.png);
@@ -301,19 +298,15 @@ footer li a:hover
 
 #Port4-2
 {
-
     width: 100%;
     height: 100%;
-    background: url(../images/floorIsLava.png);
+    background: url(../images/floorIsLava.png)  ;
     
     opacity: 0.9;
 }
 
-
-
 #Port5
 {
-   
     width: 100%;
     height: 100%;
     background-image: url(../images/BlackFeather.png);
@@ -325,9 +318,9 @@ footer li a:hover
     float: right;
     width: 100%;
     height: 100%;
-    background-color:darkslateblue;
+    background: url(../images/Healthnet.png);
     
-    opacity: 0.6;
+    opacity: 0.95;
 }
 
 
@@ -380,6 +373,34 @@ footer li a:hover
     animation:blur 2s ease-out 1;
 }
 
+#readMore a
+{
+    position: absolute;
+    text-align: center;
+    transform: translateY(-50%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 15%;
+    top: 75%;
+    left: 50%;
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    border: 1px solid lightskyblue;
+    border-radius: 25px;
+    box-shadow: 5px 5px black;
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 3px black;
+    z-index: 10;
+}
+#readMore a:hover
+{
+    color: lightyellow;
+    background: black; 
+    animation:blur 2s ease-out 1;
+}
 
 
 @media only screen and (min-width:150px) and (max-width: 640px)
