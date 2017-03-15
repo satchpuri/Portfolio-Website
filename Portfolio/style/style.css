@@ -133,9 +133,7 @@ header
     bottom: 0;
     left: 0;
     right: 0;
-    
-  
-  padding: 20px;
+    padding: 20px;
 }
 footer 
 {
@@ -401,6 +399,8 @@ ul
     top: -25%;
     left: 50%;
     transform: translate(-50%, -100%);
+    animation:blur 2s ease-out 1;    
+    text-shadow: -1px 1px white;
 }
 
 .Tools
@@ -410,6 +410,8 @@ ul
     top: 65%;
     left: 50%;
     transform: translate(-50%, -100%);
+    animation:blur 2s ease-out 1;
+    text-shadow: -1px 1px white;
 }
 
 #SilverRole
@@ -420,6 +422,7 @@ ul
     background-color: rgba(255, 0, 0, 0.8);
     position: absolute;
     top:-15%;
+    
 }
 
 #SilverRole1
@@ -456,6 +459,10 @@ strong
     position: absolute;
     top: 100%;
     left: 10%;
+}
+#github:hover
+{
+    
 }
 
 #download
