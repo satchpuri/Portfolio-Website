@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset="UTF-8" />
+    <title> Silver Echo - Satch Puri </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="author" content="Sachit Puri" />
+	<meta name="description" content="Portfolio Website" />
+	<meta name="keywords"  content="Game Design, Sachit Puri, Satch, Video Games" />
+
+	<link rel="stylesheet" type="text/css" href="style/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="js/scrolloverflow.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				verticalCentered: false,
+				css3:false
+			});
+		});
+	</script>
+
+</head>
+<body>
+    <div id="sbackground"> </div>
+    <div id="header">
+        <nav class="header">
+            <header>
+                <a class="name" href="index.html" >SP</a>
+                    <ul class="navBar">
+                         <li><a href="resume.pdf" target="0">Resume</a></li> 
+                         <li><a href="../index.html#Port2">Portfolio</a></li>
+                        <li><a href="about.html">About Me</a></li>   
+                    </ul>
+            </header>
+        </nav>
+    </div>
+    <div id="fullpage"> 
+     <div class="section">
+        <div id="Port2-1">    
+            <div class="paragraph">
+                <p id="SilverInfo"> Silver Echo is a stealth based puzzle game created in under 36 hours for the Global Game Jam 2017 at RIT.</p>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <div id="Port2-2">
+            <div class="paragraph">
+                <h2> Role</h2>
+                <p id="SilverRole"> Game Producer: Using the scrum ideology managed a team of 8 to ensure all the goals and tasks were met in a timely manner.</p>
+                <p id="SilverRole1">UI/UX Developer: Developed the UI and HUD as well as the Sound Manager. Incorporated a dynamic color picker for the enemies and the hero.</p>
+            </div> 
+        </div>       
+           
+    </div>
+    </div>
+    
+    <div id="footer">
+    <nav class="footer">   
+        <footer>
+            <ul>    
+                <li><a href="sources.html">Sources</a></li>
+            </ul>
+                <p id="footers"> @Copyright 2017 Satch Puri </p>
+        </footer>
+    </nav>
+    
+</div>
+</body>
+</html>

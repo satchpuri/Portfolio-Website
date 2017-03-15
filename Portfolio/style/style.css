@@ -49,7 +49,8 @@ body
     position:fixed;	
     display:block;
     width: 100%;	
-    z-index:9;		
+    z-index:9;	
+    
 }
 #header
 {
@@ -59,6 +60,10 @@ body
 {
     bottom: 0px;
 }
+header
+{
+    box-shadow: 1px 1px white;
+}
 .header
 {  
     position: absolute;
@@ -66,6 +71,7 @@ body
     left: 0;
     right: 0;
     background-color: rgba(0, 0, 0, 0.6);
+    
 }
 
 .navBar
@@ -223,7 +229,7 @@ footer li a:hover
     
 }
 
-#Port1, #Port2, #Port3, #Port4,#Port4-1,#Port4-2, #Port5, #Port6
+#Port1, #Port2,#Port2-1,#Port2-2, #Port3, #Port4,#Port4-1,#Port4-2, #Port5, #Port6
 {
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -232,13 +238,21 @@ footer li a:hover
     opacity: 0.9;
 }
 
-
-
 #Port2
 {
     background-image: url(../images/SilverEcho.png); 
 }
+#Port2-1
+{
+    opacity: 1;
+    background-image: url(../images/SilverEchoTitle.png); 
+}
 
+#Port2-2
+{
+    opacity: 1;
+    background-image: url(../images/SilverEchoPing.png);
+}
 #Port3
 {
     background-image: url(../images/SlimeSpree.png);
@@ -346,6 +360,67 @@ footer li a:hover
     color: lightyellow;
     background: black; 
     animation:blur 2s ease-out 1;
+}
+
+.paragraph
+{
+   
+    position: absolute;
+    width: 50em;
+    height: 40em;
+    left: 50%;
+    top: 50%;
+    transform: translate(0%, -50%);
+    text-align: justify;
+    text-align-last: center;
+}
+
+#SilverInfo
+{
+    color: white;
+    opacity: 1.0;
+   
+    font-size: 3em;
+    position: absolute;
+    top: 40%;
+    transform: translate(0%, -50%);
+}
+
+#SilverRole
+{
+    padding: 1em;
+    text-shadow: 1px 0px black;
+    background: rgba( 255, 0,0, 0.4);
+    color: black;
+    opacity: 1.0;
+    font-size: 2em;
+    position: absolute;
+    top: 25%;
+    transform: translate(0%, -50%);
+}
+
+#SilverRole1
+{
+    padding: 1em;
+    text-shadow: 1px 0px black;
+    background: rgba( 255, 0,0, 0.4);
+    color: black;
+    opacity: 1.0;
+    font-size: 2em;
+    position: absolute;
+    top: 55%;
+    transform: translate(0%, -50%);
+}
+.paragraph h2
+{
+     background: rgba(0, 0, 0, 0.3);
+    color: red;
+    text-align: center;
+    position: relative;
+    top: 0%;
+    font-size: 4em;
+    font-size: 4em;
+   transform: translate(0%, -50%);
 }
 
 @media only screen and (min-width:150px) and (max-width: 640px)
