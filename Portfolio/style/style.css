@@ -186,7 +186,7 @@ footer li a:hover
 #mainName
 {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -205,22 +205,32 @@ footer li a:hover
     color: lightcyan;
     text-shadow: 8px 8px 8px black;
     text-align:center;
-    font-size:7em;
+    font-size:100px;
     font-weight:700;
     animation:blur 5s ease-out 1;
     text-shadow: 10px 10px 10px #000;
 }
 
-#arrow
+#arrowDown
 {
-    position: relative;
-    width: 200px;
-    height: 200px;
+    position: absolute;
+    width: 80px;
+    height: 80px;
     left: 50%;
-    top: 2em;
-    background: url(../images/Arrow.png) no-repeat 0px 0px;
-    transform: translate(-50%);
-    
+    top: 85%;
+    background: url(../images/arrowdown.png) no-repeat 0px 0px;
+    transform: translate(-50%);   
+}
+
+#arrowUp
+{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 50%;
+    top: 10%;
+    background: url(../images/arrowup.png) no-repeat 0px 0px;
+    transform: translate(-50%);   
 }
 #arrow:hover
 {
