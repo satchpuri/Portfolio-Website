@@ -218,8 +218,13 @@ footer li a:hover
     height: 80px;
     left: 50%;
     top: 85%;
-    background: url(../images/arrowdown.png) no-repeat 0px 0px;
+    background: url(../images/arrowdown.png);
     transform: translate(-50%);   
+}
+
+#arrowDown:hover
+{
+    background-image: url(../images/arrowDownHover.png);
 }
 
 #arrowUp
@@ -229,12 +234,13 @@ footer li a:hover
     height: 80px;
     left: 50%;
     top: 10%;
-    background: url(../images/arrowup.png) no-repeat 0px 0px;
+    background: url(../images/arrowup.png);
     transform: translate(-50%);   
 }
-#arrow:hover
+
+#arrowUp:hover
 {
-    
+    background-image: url(../images/arrowuphover.png);
 }
 
 #Port1, #Port2,#Port2-1,#Port2-2, #Port2-3, #Port3, #Port4,#Port4-1,#Port4-2, #Port5, #Port6
