@@ -456,27 +456,46 @@ strong
 
 #github
 {
+    background-image: url("../images/github.png");
     position: absolute;
     top: 100%;
     left: 10%;
+    background-repeat: no-repeat;
 }
+
 #github:hover
 {
-    
+    background-image: url("../images/githubHover.png");
+    background-repeat: no-repeat;
 }
 
 #download
 {
+    background-image: url("../images/downloadHover.png");
+  
     position: absolute;
     top: 100%;
     left: 45%;
+    background-repeat: no-repeat;
 }
 
+#download:hover
+{
+    background-image: url("../images/download.png");
+    background-repeat: no-repeat;
+}
 #GlobalGame
 {
+    background-image: url("../images/GGJ-round-logo.png");
+    background-repeat: no-repeat;
     position: absolute;
     top: 100%;
     left: 80%;
+}
+#GlobalGame:hover
+{
+    background-image: url("../images/GGJ-round-logoHover.png");
+    background-repeat: no-repeat;
 }
 
 #silverTrailer
