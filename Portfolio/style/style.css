@@ -243,7 +243,7 @@ footer li a:hover
     background-image: url(../images/arrowuphover.png);
 }
 
-#Port1, #Port2,#Port2-1,#Port2-2, #Port3,#Port3-1, #Port3-2,#Port4,#Port4-1,#Port4-2, #Port5,#Port5-1,#Port5-2, #Port6, #Port6-1, #Port6-2, #Port7
+#Port1, #Port2,#Port2-1,#Port2-2, #Port3,#Port3-1, #Port3-2,#Port4,#Port4-1,#Port4-2, #Port5,#Port5-1,#Port5-2, #Port6, #Port6-1, #Port6-2, #Port7, #Port7-1, #Port7-2
 {
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -331,6 +331,17 @@ footer li a:hover
 #Port7
 {
     background-image: url(../images/OpenGL.png);
+}
+
+#Port7-1
+{
+    opacity: 1;
+    background-image: url(../images/robox.png);
+}
+#Port7-2
+{
+    opacity: 1;
+    background-image: url(../images/shapes.png);
 }
 .slideshow
 {
@@ -459,7 +470,7 @@ ul
     font-size: 40px;
 }
 
-.Role, .Role1
+.Role, .Role1, .RoleOpen, .RoleShape
 {
     position: absolute;
     font-size: 60px;
@@ -470,7 +481,7 @@ ul
     text-shadow: -1px 1px white;
 }
 
-.Tools, .Tools1, .Toolshealth
+.Tools, .Tools1, .Toolshealth, .ToolsOpen, .ToolsShape
 {
     position: absolute;
     font-size: 50px;
@@ -481,7 +492,7 @@ ul
     text-shadow: -1px 1px white;
 }
 
-#SilverRole, #SlimeRole, #blackRole, #healthRole
+#SilverRole, #SlimeRole, #blackRole, #healthRole, #openRole
 {
     font-size: 25px;
     text-shadow: 1px 0px black;
@@ -502,7 +513,7 @@ ul
     padding: 20px;
 }
 
-#ToolsUsed, #ToolsUsedSlime, #ToolsUsed1, #ToolsUsedhealth
+#ToolsUsed, #ToolsUsedSlime, #ToolsUsed1, #ToolsUsedhealth, #ToolsUsedOpen, #ToolsUsedShape
 {
     text-shadow: 1px 0px black;
     padding: 20px;
@@ -521,7 +532,7 @@ ul
     font-size: 30px;
 }
 
-#github
+#github, #githubOpen, #githubHealth, #githubBlack, #githubSlime
 {
     background-image: url("../images/github.png");
     position: absolute;
@@ -530,13 +541,13 @@ ul
     background-repeat: no-repeat;
 }
 
-#github:hover
+#github:hover, #githubOpen:hover, #githubHealth:hover, #githubBlack:hover, githubSlime:hover
 {
     background-image: url("../images/githubHover.png");
     background-repeat: no-repeat;
 }
 
-#download
+#download, #downloadHealth, #downloadSlime
 {
     background-image: url("../images/downloadHover.png");
     position: absolute;
@@ -545,7 +556,7 @@ ul
     background-repeat: no-repeat;
 }
 
-#download:hover
+#download:hover, #downloadHealth:hover, #downloadSlime:hover
 {
     background-image: url("../images/download.png");
     background-repeat: no-repeat;
@@ -594,6 +605,15 @@ ul
 {
      background-color: rgba(255, 0, 255, 0.8);
 }
+
+#githubSlime
+{
+    left:25%;
+}
+#downloadSlime
+{
+    left:65%;
+}
 #blackRole
 {
     background-color: rgba(100, 100, 205, 0.9);
@@ -609,6 +629,10 @@ ul
     top:37%;
 }
 
+#githubBlack
+{
+    left:50%;
+}
 #SlimeInfo strong, #healthInfo strong
 {
     color: black;
@@ -647,6 +671,73 @@ ul
 .Toolshealth
 {
     top: 73%;
+}
+
+#githubHealth
+{
+    top:120%;
+    left:25%;
+}
+#downloadHealth
+{
+    top:120%;
+    left: 65%;
+}
+.RoleOpen
+{
+    top:-5%;
+    text-align: center;
+    
+}
+
+#openRole
+{
+    top:8%;
+}
+
+.ToolsOpen
+{
+    top: 58%;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+ 
+#ToolsUsedOpen
+{
+    top:60%;
+    height: 150px;
+}
+
+#githubOpen
+{
+    top: 120%;
+    left: 50%;
+}
+
+#downloadOpen
+{
+    top:120%;
+    left: 60%;
+}
+
+.RoleShape
+{
+    color: white;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    top:-5%;
+}
+
+.ToolsShape
+{
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+#ToolsUsedShape
+{
+    top: 68%;   
+    height: 100px;
 }
 
 @media only screen and (min-width:150px) and (max-width: 640px)

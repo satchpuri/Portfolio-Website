@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset="UTF-8" />
+    <title> OpenGL/C++ - Satch Puri </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="author" content="Sachit Puri" />
+	<meta name="description" content="Portfolio Website" />
+	<meta name="keywords"  content="Game Design, Sachit Puri, Satch, Video Games" />
+  <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="js/scrolloverflow.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				verticalCentered: false,
+				css3:false
+			});
+		});
+        
+   
+	</script>
+
+</head>
+<body>
+    
+    
+    <div id="sbackground"> </div>
+    <div id="header">
+        <nav class="header">
+            <header>
+                <a class="name" href="index.html" >SP</a>
+                    <ul class="navBar">
+                         <li><a href="resume.pdf" target="_blank">Resume</a></li> 
+                         <li><a href="index.html#Port2">Portfolio</a></li>
+                        <li><a href="about.html">About Me</a></li>  
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+            </header>
+        </nav>
+    </div>
+    <div id="fullpage"> 
+    
+        <div class="section">
+            <div id="Port7-1">  
+                <div class="slides">
+                    <img class="slideshow" src="images/Robox1.gif" style="width:100%">
+                </div>
+                 
+                <div class="paragraph">
+                    <h2 class="RoleShape">Robox Game Engine</h2>
+                        <ul>
+                            <li id="openRole">Game engine created using OpenGL libraries in C++. <br> Programmed for 2D and 3D platformers, consists of a movable camera, character controls, collision detection, vertex and fragment shaders and 3-D model and texture loading. </li>
+                             <a href="https://github.com/satchpuri/Robox-OpenGL-GameEngine" target="_blank" id="githubOpen"><img src="images/img.png"  width="80px" height="80px"> </a>
+                            
+                        </ul>
+                    <h2 class="ToolsOpen">Tools Used</h2>
+                        <ul id="ToolsUsedOpen">
+                            <li>OpenGL/C++</li>
+                            <li>Visual Studio 2015 </li>
+                            <li>Autodesk Maya</li>
+                            <li>Adobe Photoshop</li>
+                           
+                        </ul>
+                </div> 
+                 <a href="openGL.html#Port7-2"> <div id="arrowDown"> 
+                    </div></a>
+            </div>       
+        </div>
+        
+        <div class="section">
+            <div id="Port7-2">     
+                <div class="paragraph">
+                    <h2 class="RoleShape">Shape Generator</h2>
+                        <ul>
+                            <li id="openRole">Programmed a shape generator that procedurally generates quads, triangles, disks, cubes, cylinders and spheres.<br> Gave the user the option of chosing number of sides, longitudes, latitutdes etc.  <br> Exportes the generated shapes as .obj files. </li>
+                             <a href="https://github.com/satchpuri/Procedural-Models" target="_blank" id="githubOpen"><img src="images/img.png"  width="80px" height="80px"> </a>
+                            
+                        </ul>
+                    <h2 class="ToolsShape">Tools Used</h2>
+                        <ul id="ToolsUsedShape">
+                            <li>C++</li>
+                            <li>Visual Studio 2015 </li>
+                        </ul>
+                </div> 
+                <a href="openGL.html#Port7-1"><div id="arrowUp">
+                    </div></a>
+                <a href="openGL.html#Port2"> <div id="arrowDown"> 
+                    </div></a>
+            </div>       
+        </div>
+        
+        <div class="section">
+            <div id="Port2">    
+                <h3 id="readMore"> <a href="silverEcho.html"> Read More </a></h3>
+                  <a href="openGL.html#Port7-2"><div id="arrowUp">
+                    </div></a>
+                <a href="openGL.html#Port3"> <div id="arrowDown"> 
+                    </div></a>
+            </div>
+        </div>
+        <div class="section">
+            <div id="Port3">
+                <h3 id="readMore"> <a href="slimeSpree.html"> Read More </a></h3>
+                 <a href="openGL.html#Port2"><div id="arrowUp">
+                    </div></a>
+               <a href="openGL.html#Port5"> <div id="arrowDown"> 
+                    </div></a>
+            </div>
+
+        </div>
+        <div class="section">
+            <div id="Port5">
+            <h3 id="readMore"> <a href="blackfeather.html"> Read More </a></h3>
+                      <a href="openGL.html#Port3"><div id="arrowUp">
+                    </div></a>
+                <a href="openGL.html#Port6"> <div id="arrowDown"> 
+                    </div></a>
+            </div> 
+        </div>
+         <div class="section">
+            <div id="Port6">
+             <h3 id="readMore"> <a href="healthnet.html"> Read More </a></h3>
+                 <a href="openGL.html#Port5"><div id="arrowUp">
+                    </div></a>
+             </div>
+        </div>
+    </div>
+    
+    <div id="footer">
+    <nav class="footer">   
+        <footer>
+            <ul>    
+                <li><a href="sources.html">Sources</a></li>
+            </ul>
+                <p id="footers"> @Copyright 2017 Satch Puri </p>
+        </footer>
+    </nav>
+    
+</div>
+    
+    <script>
+     var myIndex = 0;
+    carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("slideshow");
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2900); // Change image every 2 seconds
+        }
+    </script>
+</body>
+</html>
