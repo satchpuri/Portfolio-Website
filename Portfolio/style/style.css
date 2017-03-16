@@ -243,7 +243,7 @@ footer li a:hover
     background-image: url(../images/arrowuphover.png);
 }
 
-#Port1, #Port2,#Port2-1,#Port2-2, #Port2-3, #Port3, #Port4,#Port4-1,#Port4-2, #Port5, #Port6
+#Port1, #Port2,#Port2-1,#Port2-2, #Port3,#Port3-1, #Port3-2,#Port4,#Port4-1,#Port4-2, #Port5,#Port5-1, #Port6
 {
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -268,15 +268,21 @@ footer li a:hover
     background-image: url(../images/SilverEchoPing.png);
 }
 
-#Port2-3
-{
-    background-image: url(../images/SilverEchoMain.png);
-}
 #Port3
 {
     background-image: url(../images/SlimeSpree.png);
 }
+#Port3-1
+{
+    opacity: 1;
+    background-image: url(../images/SlimeSpreeTitle.png);
+}
 
+#Port3-2
+{
+    opacity: 1;
+    background-image: url(../images/SlimeSpreegame.png);
+}
 #Port4
 {
     background-image: url(../images/givejoy.png);
@@ -296,11 +302,30 @@ footer li a:hover
 {
     background-image: url(../images/BlackFeather.png);
 }
+
+#Port5-1
+{
+    opacity: 1;
+    background-image: url(../images/blackfeatherTitle.png);
+}
 #Port6
 {
     background-image: url(../images/Healthnet.png);
 }
 
+.slideshow
+{
+    display: none;
+}
+
+.slides
+{
+    max-width: 600px;
+    top:50%;
+    position: absolute;
+    left: 25%;
+    transform: translate(-50%,-50%);
+}
 
 @keyframes blur{
   from{
@@ -391,7 +416,7 @@ footer li a:hover
     transform: translate(0%, -50%);
     text-align: justify;
     text-align-last: center;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 ul
@@ -404,8 +429,15 @@ ul
     color: white;
     opacity: 1.0;
     position: absolute;
-    top: 35%;
+    top: 30%;
     transform: translate(0%, -50%);
+}
+
+#SilverInfo strong
+{
+    text-decoration: none;
+    color: red;
+    font-size: 40px;
 }
 
 .Role
@@ -464,7 +496,7 @@ ul
     top: 67%;
     left: 5%;
 }
-strong
+.paragraph strong
 {
     text-decoration: underline;
     font-size: 30px;
@@ -520,6 +552,23 @@ strong
     top: 50%;
     left: 25%;
     transform: translate(-50%, -50%);
+}
+
+#SlimeInfo
+{
+    font-size: 35px;
+    color: white;
+    opacity: 1.0;
+    position: absolute;
+    top: 35%;
+    transform: translate(0%, -50%);
+}
+
+#SlimeInfo strong
+{
+    color: black;
+    font-size: 50px;
+    text-decoration: none;
 }
 
 @media only screen and (min-width:150px) and (max-width: 640px)
