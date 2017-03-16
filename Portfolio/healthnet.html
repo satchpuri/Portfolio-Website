@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset="UTF-8" />
+    <title> Healthnet - Satch Puri </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta name="author" content="Sachit Puri" />
+	<meta name="description" content="Portfolio Website" />
+	<meta name="keywords"  content="Game Design, Sachit Puri, Satch, Video Games" />
+  <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="style/style.css" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="js/scrolloverflow.js"></script>
+	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				verticalCentered: false,
+				css3:false
+			});
+		});
+        
+   
+	</script>
+
+</head>
+<body>
+    
+    
+    <div id="sbackground"> </div>
+    <div id="header">
+        <nav class="header">
+            <header>
+                <a class="name" href="index.html" >SP</a>
+                    <ul class="navBar">
+                         <li><a href="resume.pdf" target="_blank">Resume</a></li> 
+                         <li><a href="index.html#Port2">Portfolio</a></li>
+                        <li><a href="about.html">About Me</a></li>  
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+            </header>
+        </nav>
+    </div>
+    <div id="fullpage"> 
+        <div class="section">
+            <div id="Port6-1">    
+                <div class="paragraph">
+                    <p id="healthInfo"><strong>Healthnet</strong> is a web portal for doctors, patients and nurses to book appointments, view prescriptions and admit/discharge patients from hospitals. 
+                    <a href="https://github.com/satchpuri/Healthnet" target="_blank" id="github"><img src="images/img.png"  width="80px" height="80px"> </a>
+                    <a href="https://drive.google.com/file/d/0B0EFkVUZ1-NwamZ6NjVzNUZhOVE/view?usp=sharing" target="_blank" id="download"> <img src="images/img.png" width="80px" height="80px"></a>
+                </div>
+                <div id="arrowDown"> 
+                </div>
+            </div>  
+        </div>
+        
+        <div class="section">
+            <div id="Port6-2">  
+                <div class="slides">
+                    <img class="slideshow" src="images/HealthnetCalender.png" style="width:100%">
+                    <img class="slideshow" src="images/HealthnetLogIn.png" style="width:100%">
+                    <img class="slideshow" src="images/HealthnetRegister.png" style="width:100%">
+                </div>
+                <div class="paragraph">
+                    <h2 class="Role">Role</h2>
+                        <ul>
+                            <li id="healthRole"><strong>Team Leader: </strong> Using Agile and scrum techniques, managed a team of 4 to develop a web portal in a semester. Resolved conflicts when occured and ensured all tasks were handled diligently. </li>
+                            <li id="healthRole1"><strong>Lead Front End Developer</strong> Designed the UI for the portal as well as the structure using class diagrams, sequence diagrams and use cases. </li>
+                        </ul>
+                    <h2 class="Toolshealth">Tools Used</h2>
+                        <ul id="ToolsUsedhealth">
+                            <li>Django 1.9</li>
+                            <li>Python 3.4.3</li>
+                            <li>Trello</li>
+                            <li>Pycharm</li>
+                            <li>Tortoise SVN</li>
+                        </ul>
+                </div> 
+                <div id="arrowUp">
+                </div>
+                <div id="arrowDown"> 
+                </div>
+            </div>       
+        </div>
+        
+    <div class="section">
+        <div id="Port3">
+            <h3 id="readMore"> <a href="#"> Read More </a></h3>
+        </div>
+    </div>
+    <div class="section">
+        <div class="slide">
+            <div id="mainName">
+                <h1>OpenGL/Algorithms</h1>
+                <h3 id="readMore"> <a href="#"> Read More </a></h3>
+            </div>
+        </div>
+        <div class="slide">
+            <h3 id="readMore"> <a href="#"> Read More </a></h3>
+        </div>
+    </div>
+    <div class="section">
+        <div id="Port5">
+        <h3 id="readMore"> <a href="#"> Read More </a></h3>
+        </div> 
+    </div>
+     <div class="section">
+        <div id="Port6">
+         <h3 id="readMore"> <a href="#"> Read More </a></h3>
+         </div>
+    </div>
+	<div class="section">  
+        
+		<div class="slide"> 
+            <h3 id="readMore"> <a href="#"> Read More </a></h3>
+            <div id="Port4">
+                
+            </div>
+        </div>
+		<div class="slide">
+            <h3 id="readMore"> <a href="#"> Read More </a></h3>
+            <div id="Port4-1">
+            </div>
+	    </div>
+        <div class="slide">
+            <div id="Port4-2">
+                <h3 id="readMore"> <a href="#"> Read More </a></h3>
+            </div>
+	    </div>
+    </div>
+    </div>
+    
+    <div id="footer">
+    <nav class="footer">   
+        <footer>
+            <ul>    
+                <li><a href="sources.html">Sources</a></li>
+            </ul>
+                <p id="footers"> @Copyright 2017 Satch Puri </p>
+        </footer>
+    </nav>
+    
+</div>
+    
+    <script>
+     var myIndex = 0;
+    carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("slideshow");
+            for (i = 0; i < x.length; i++) {
+               x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+    </script>
+</body>
+</html>

@@ -243,7 +243,7 @@ footer li a:hover
     background-image: url(../images/arrowuphover.png);
 }
 
-#Port1, #Port2,#Port2-1,#Port2-2, #Port3,#Port3-1, #Port3-2,#Port4,#Port4-1,#Port4-2, #Port5,#Port5-1,#Port5-2, #Port6
+#Port1, #Port2,#Port2-1,#Port2-2, #Port3,#Port3-1, #Port3-2,#Port4,#Port4-1,#Port4-2, #Port5,#Port5-1,#Port5-2, #Port6, #Port6-1, #Port6-2, #Port7
 {
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -317,7 +317,21 @@ footer li a:hover
 {
     background-image: url(../images/Healthnet.png);
 }
+#Port6-1
+{
+    opacity: 1;
+    background-image: url(../images/HealthnetTitle.png);
+}
 
+#Port6-2
+{
+    opacity: 1;
+    background-image: url(../images/HealthnetAlt.png);
+}
+#Port7
+{
+    background-image: url(../images/OpenGL.png);
+}
 .slideshow
 {
     display: none;
@@ -456,7 +470,7 @@ ul
     text-shadow: -1px 1px white;
 }
 
-.Tools, .Tools1
+.Tools, .Tools1, .Toolshealth
 {
     position: absolute;
     font-size: 50px;
@@ -467,7 +481,7 @@ ul
     text-shadow: -1px 1px white;
 }
 
-#SilverRole
+#SilverRole, #SlimeRole, #blackRole, #healthRole
 {
     font-size: 25px;
     text-shadow: 1px 0px black;
@@ -478,7 +492,7 @@ ul
     
 }
 
-#SilverRole1
+#SilverRole1, #SlimeRole1, #blackRole1, #healthRole1
 {
     text-shadow: 1px 0px black;
     font-size: 25px;
@@ -488,7 +502,7 @@ ul
     padding: 20px;
 }
 
-#ToolsUsed, #ToolsUsedSlime, #ToolsUsed1
+#ToolsUsed, #ToolsUsedSlime, #ToolsUsed1, #ToolsUsedhealth
 {
     text-shadow: 1px 0px black;
     padding: 20px;
@@ -525,7 +539,6 @@ ul
 #download
 {
     background-image: url("../images/downloadHover.png");
-  
     position: absolute;
     top: 100%;
     left: 45%;
@@ -559,7 +572,7 @@ ul
     transform: translate(-50%, -50%);
 }
 
-#SlimeInfo
+#SlimeInfo, #healthInfo
 {
     font-size: 35px;
     color: white;
@@ -570,21 +583,11 @@ ul
 }
 #SlimeRole
 {
-    font-size: 25px;
-    text-shadow: 1px 0px black;
-    padding: 20px;
     background-color: rgba(255, 0, 255, 0.8);
-    position: absolute;
-    top:-15%;
 }
 #SlimeRole1
 {
-    text-shadow: 1px 0px black;
-    font-size: 25px;
     background-color: rgba(255, 0, 255, 0.8);
-    position: absolute;
-    top:22%;
-    padding: 20px;
 }
 
 #ToolsUsedSlime
@@ -593,11 +596,7 @@ ul
 }
 #blackRole
 {
-    font-size: 25px;
-    text-shadow: 1px 0px black;
-    padding: 20px;
     background-color: rgba(100, 100, 205, 0.9);
-    position: absolute;
     top:-25%;
 }
 .Role1
@@ -605,16 +604,12 @@ ul
     top: -35%; 
 }
 #blackRole1
-{
-    text-shadow: 1px 0px black;
-    font-size: 25px;
+{ 
     background-color: rgba(100, 100, 205, 0.9);
-    position: absolute;
     top:37%;
-    padding: 20px;
 }
 
-#SlimeInfo strong
+#SlimeInfo strong, #healthInfo strong
 {
     color: black;
     font-size: 50px;
@@ -630,6 +625,28 @@ ul
 {
     background-color: rgba(100, 100, 205, 0.9);
     top: 83%;
+}
+
+#healthRole
+{
+    background-color: rgba(10, 100, 200, 0.9);
+}
+
+#healthRole1
+{
+     background-color: rgba(10, 100, 200, 0.9);
+    top: 30%;
+}
+
+#ToolsUsedhealth
+{
+     background-color: rgba(10, 100, 200, 0.9);
+    top: 76%;
+}
+
+.Toolshealth
+{
+    top: 73%;
 }
 
 @media only screen and (min-width:150px) and (max-width: 640px)
