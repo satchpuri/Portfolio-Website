@@ -564,11 +564,65 @@ ul
     transform: translate(0%, -50%);
 }
 
+#blackRole
+{
+    font-size: 25px;
+    text-shadow: 1px 0px black;
+    padding: 20px;
+    background-color: rgba(255, 0, 0, 0.8);
+    position: absolute;
+    top:-25%;
+}
+.Role1
+{
+    position: absolute;
+    font-size: 60px;
+    top: -35%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    animation:blur 2s ease-out 1;    
+    text-shadow: -1px 1px white;
+}
+#blackRole1
+{
+    text-shadow: 1px 0px black;
+    font-size: 25px;
+    background-color: rgba(255, 0, 0, 0.8);
+    position: absolute;
+    top:37%;
+    padding: 20px;
+}
+
 #SlimeInfo strong
 {
     color: black;
     font-size: 50px;
     text-decoration: none;
+}
+
+.Tools1
+{
+   position: absolute;
+    font-size: 50px;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    animation:blur 2s ease-out 1;
+    text-shadow: -1px 1px white; 
+}
+
+#ToolsUsed1
+{
+    text-shadow: 1px 0px black;
+    padding: 20px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 0, 0, 0.8);
+    position: absolute;
+    font-size: 25px;
+    width: 720px;
+    height: 200px;
+    top: 83%;
+    left: 5%;
 }
 
 @media only screen and (min-width:150px) and (max-width: 640px)
