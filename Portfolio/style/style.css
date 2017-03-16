@@ -243,7 +243,7 @@ footer li a:hover
     background-image: url(../images/arrowuphover.png);
 }
 
-#Port1, #Port2,#Port2-1,#Port2-2, #Port3,#Port3-1, #Port3-2,#Port4,#Port4-1,#Port4-2, #Port5,#Port5-1, #Port6
+#Port1, #Port2,#Port2-1,#Port2-2, #Port3,#Port3-1, #Port3-2,#Port4,#Port4-1,#Port4-2, #Port5,#Port5-1,#Port5-2, #Port6
 {
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -307,6 +307,11 @@ footer li a:hover
 {
     opacity: 1;
     background-image: url(../images/blackfeatherTitle.png);
+}
+#Port5-2
+{
+    opacity: 1;
+    background: url(../images/Water.gif);
 }
 #Port6
 {
@@ -440,7 +445,7 @@ ul
     font-size: 40px;
 }
 
-.Role
+.Role, .Role1
 {
     position: absolute;
     font-size: 60px;
@@ -451,7 +456,7 @@ ul
     text-shadow: -1px 1px white;
 }
 
-.Tools
+.Tools, .Tools1
 {
     position: absolute;
     font-size: 50px;
@@ -483,7 +488,7 @@ ul
     padding: 20px;
 }
 
-#ToolsUsed
+#ToolsUsed, #ToolsUsedSlime, #ToolsUsed1
 {
     text-shadow: 1px 0px black;
     padding: 20px;
@@ -563,31 +568,47 @@ ul
     top: 35%;
     transform: translate(0%, -50%);
 }
+#SlimeRole
+{
+    font-size: 25px;
+    text-shadow: 1px 0px black;
+    padding: 20px;
+    background-color: rgba(255, 0, 255, 0.8);
+    position: absolute;
+    top:-15%;
+}
+#SlimeRole1
+{
+    text-shadow: 1px 0px black;
+    font-size: 25px;
+    background-color: rgba(255, 0, 255, 0.8);
+    position: absolute;
+    top:22%;
+    padding: 20px;
+}
 
+#ToolsUsedSlime
+{
+     background-color: rgba(255, 0, 255, 0.8);
+}
 #blackRole
 {
     font-size: 25px;
     text-shadow: 1px 0px black;
     padding: 20px;
-    background-color: rgba(255, 0, 0, 0.8);
+    background-color: rgba(100, 100, 205, 0.9);
     position: absolute;
     top:-25%;
 }
 .Role1
 {
-    position: absolute;
-    font-size: 60px;
-    top: -35%;
-    left: 50%;
-    transform: translate(-50%, -100%);
-    animation:blur 2s ease-out 1;    
-    text-shadow: -1px 1px white;
+    top: -35%; 
 }
 #blackRole1
 {
     text-shadow: 1px 0px black;
     font-size: 25px;
-    background-color: rgba(255, 0, 0, 0.8);
+    background-color: rgba(100, 100, 205, 0.9);
     position: absolute;
     top:37%;
     padding: 20px;
@@ -602,27 +623,13 @@ ul
 
 .Tools1
 {
-   position: absolute;
-    font-size: 50px;
     top: 80%;
-    left: 50%;
-    transform: translate(-50%, -100%);
-    animation:blur 2s ease-out 1;
-    text-shadow: -1px 1px white; 
 }
 
 #ToolsUsed1
 {
-    text-shadow: 1px 0px black;
-    padding: 20px;
-    padding-bottom: 10px;
-    background-color: rgba(255, 0, 0, 0.8);
-    position: absolute;
-    font-size: 25px;
-    width: 720px;
-    height: 200px;
+    background-color: rgba(100, 100, 205, 0.9);
     top: 83%;
-    left: 5%;
 }
 
 @media only screen and (min-width:150px) and (max-width: 640px)
