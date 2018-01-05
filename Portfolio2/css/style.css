@@ -6,6 +6,11 @@ html, body{
  font-family: 'Noticia Text', serif;
    font-size: 100%;
    background:#fff; 
+   
+}
+a
+{
+     color: #1f5ce8;
 }
 body a{
 	transition:0.5s all;
@@ -45,7 +50,7 @@ button {
     font-size: 40px;
 }
 .header {
-	background: url(../images/banner.jpg)no-repeat center top;
+	background: url(../images/banner.png)no-repeat center top;
 	background-size: 100% 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -72,18 +77,20 @@ ul.nav-list li { display: inline-block; text-align: left;
 ul.nav-list li a.logo:hover{
 	border-bottom:none; 
 }
+
 ul.nav-list li a { 
 	        display: block; 
-	        margin:0px 15px; 
-	        text-decoration: none; 
+	        margin:0px 20px; 
+	        text-decoration: none;
+    font-weight: bold;
 			text-transform: uppercase;
-	        color:#000;
-	        font-size:14px;
+	       color: #1f5ce8;
+	        font-size:21px;
 	        -webkit-transition: all 0.5s ease;
 			-moz-transition: all 0.5s ease;
 			-o-transition: all 0.5s ease;
 			transition: all 0.5s ease; }
-ul.nav-list li a:hover { color:#333333; border-bottom: 3px solid #000000; padding-bottom: 3px;}
+ul.nav-list li a:hover { color:#999; border-bottom: 3px solid #000000; padding-bottom: 3px;}
 .logo a:hover{
     border: none !important;
 	padding-bottom: 0px !important;
